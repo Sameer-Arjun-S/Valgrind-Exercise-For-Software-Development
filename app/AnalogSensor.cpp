@@ -13,8 +13,8 @@ AnalogSensor::~AnalogSensor()
 
 int AnalogSensor::Read()
 {   
-    //Since the 'new' command below dybamically allocates hte memory, and
-    // there is no method to free the memory, it can be resolved by removing this
+    //Since the 'new' command below dynamically allocates the memory, and
+    // there is no command to free the memory, it can be resolved by removing this
     //std::vector<int> *readings = new std::vector<int>(mSamples, 10);
     std::vector<int> readings(mSamples, 10);
 

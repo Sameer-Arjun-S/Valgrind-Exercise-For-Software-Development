@@ -5,7 +5,7 @@ int main()
 {
     AnalogSensor lightSensor(5);
     std::cout << "Averaged sensor reading: " << lightSensor.Read() << std::endl;
-    //Rectifying the errors by initializing the 'terminator' boolean
+    //Rectifying the errors by initializing value to the 'terminator' boolean
     bool terminator =true;
     if( terminator )
     {
