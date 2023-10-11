@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/sas/Valgrind_Exercise/build/app",
+  "command": "/usr/bin/c++  -I/home/sas/Valgrind_Exercise/include -std=gnu++14 -o CMakeFiles/shell-app.dir/AnalogSensor.cpp.o -c /home/sas/Valgrind_Exercise/app/AnalogSensor.cpp",
+  "file": "/home/sas/Valgrind_Exercise/app/AnalogSensor.cpp"
+},
+{
+  "directory": "/home/sas/Valgrind_Exercise/build/app",
+  "command": "/usr/bin/c++  -I/home/sas/Valgrind_Exercise/include -std=gnu++14 -o CMakeFiles/shell-app.dir/main.cpp.o -c /home/sas/Valgrind_Exercise/app/main.cpp",
+  "file": "/home/sas/Valgrind_Exercise/app/main.cpp"
+}
+]
