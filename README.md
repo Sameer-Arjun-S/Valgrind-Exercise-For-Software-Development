@@ -19,11 +19,11 @@ cmake --build build/
 
 # Run the program and check fro memory leak errors using Valgrind tool
 valgrind --leak-check=yes ./build/app/shell-app
+```
 
-# Answers for extra credit
-What happens when the executable is linked statically? Does Valgrind still detect those same bugs?
-Why or why not?
-Answer:
+## Answers for extra credit
+### What happens when the executable is linked statically? Does Valgrind still detect those same bugs? Why or why not?
+### Answer:
 The libraries and dependencies required by a program are included in the executable when a executable 
 is linked statically, leading to a larger file. However, Valgrind is a dynamic memory leak analysis 
 tool and it works by running the program in a controlled enviroment by analyzing system calls and 
